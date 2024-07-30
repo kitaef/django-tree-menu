@@ -1,0 +1,10 @@
+<ul>
+    <a href="{{ menu.get_absolute_url }}">
+        {{ menu.name }}
+    </a>
+    {% if menu.children and menu.get_absolute_url in active_url %}
+        {% for child in menu.children.all %}
+            <ul>{% include 'menu/menu_item.html' with menu=child %}</ul>
+        {% endfor %}   
+    {% endif %}
+</ul>
