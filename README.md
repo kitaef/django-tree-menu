@@ -1,7 +1,7 @@
 ## Django-tree-menu
 This is my implementation of the tree-structured menu, that can be added to any page via the custom template tag, such as {% draw_menu 'menu_name' %} 
 
-<img src="demo.gif" width="450" /><img src="Screenshot.png" width="450" />
+<img src="demo.gif" width="600" /><img src="Screenshot.png" width="750" />
 ### Features
 
 - The menu is implemented via the custom template tag
